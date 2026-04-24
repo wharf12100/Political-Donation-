@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2016 金權政治獻金資料庫｜錢，如何進入政治？</title>
+  <meta name="description" content="以華麗、老錢、俗氣的金權政治視覺，探索 2016 立委候選人的政治獻金資料。" />
+  <link rel="stylesheet" href="golden_politics2016.css" />
+</head>
+<body class="page-home">
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="專題首頁2016.html" aria-label="回到首頁">
+      <span class="brand-mark">₿</span>
+      <span>
+        <strong>金庫政治</strong>
+        <small>Political Donation / 2016</small>
+      </span>
+    </a>
+    <nav class="top-nav" aria-label="主選單">
+      <a href="#why">為何重要</a>
+      <a href="#search">查詢金流</a>
+      <a href="#picks">編輯精選</a>
+      <a class="nav-pill" href="2016_result.html?sort=total">看排行</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-frame">
+      <div class="hero-ornament" aria-hidden="true">✦</div>
+      <p class="kicker">2016 立委政治獻金資料庫</p>
+      <h1>錢，如何<br>走進政治？</h1>
+      <p class="hero-copy">
+        選票把人送進國會，鈔票則在更早之前抵達現場。從個人捐贈、營利事業捐款到人民團體支持，
+        每一筆收入都像金箔上的指紋：不一定犯罪，但值得被看見。
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#search">打開金庫搜尋</a>
+        <a class="btn btn-ghost" href="2016_result.html?sort=company">直接看企業捐贈排行</a>
+      </div>
+
+      <div class="ticker" aria-label="專題關鍵字">
+        <span>企業捐贈</span>
+        <span>超過三萬元收入</span>
+        <span>個人小額政治</span>
+        <span>金權政治</span>
+        <span>選區與委員會</span>
+      </div>
+    </section>
+
+    <section id="why" class="why-grid">
+      <article class="glass-card big-question">
+        <p class="kicker">WHY IT MATTERS</p>
+        <h2>政治獻金不是八卦，是民主的帳本。</h2>
+        <p>
+          在競選期間，資源會變成看板、宣傳車、社群廣告與地方組織。誰能募集資金，誰依賴企業或個人，
+          誰的大額收入比例高，都是理解政治競爭結構的入口。
+        </p>
+      </article>
+
+      <article class="stat-card">
+        <span class="stat-label">資料筆數</span>
+        <strong>261</strong>
+        <p>候選人基本政治獻金資料</p>
+      </article>
+
+      <article class="stat-card">
+        <span class="stat-label">核心欄位</span>
+        <strong>27</strong>
+        <p>收入、支出、企業數、政黨、選區</p>
+      </article>
+
+      <article class="stat-card">
+        <span class="stat-label">查詢方式</span>
+        <strong>2</strong>
+        <p>簡易搜尋、進階條件搜尋</p>
+      </article>
+    </section>
+
+    <section id="search" class="search-stage section-frame split-search-stage">
+      <div class="search-intro">
+        <p class="kicker">SEARCH THE MONEY</p>
+        <h2>搜尋入口</h2>
+        <p>
+          先用簡易搜尋快速找人、找政黨、找選區；需要更精準時，再用進階搜尋鎖定政黨、委員會、地區、當選與否與現任狀態。
+        </p>
+      </div>
+
+      <form class="search-box layered-search" action="2016_result.html" method="get">
+        <section class="search-mode simple-mode" aria-labelledby="simpleSearchTitle">
+          <div class="mode-heading">
+            <span class="mode-number">01</span>
+            <div>
+              <h3 id="simpleSearchTitle">簡易搜尋</h3>
+              <p>直接輸入候選人、政黨、選區或委員會。</p>
+            </div>
+          </div>
+          <div class="search-row">
+            <input id="q" name="q" type="search" placeholder="例如：柯建銘、民主進步黨、經濟、新北市" autocomplete="off" />
+            <button class="btn btn-primary" type="submit">搜尋</button>
+          </div>
+        </section>
+
+        <section class="search-mode advanced-mode" aria-labelledby="advancedSearchTitle">
+          <div class="mode-heading">
+            <span class="mode-number">02</span>
+            <div>
+              <h3 id="advancedSearchTitle">進階搜尋</h3>
+              <p>用條件篩出更精準的金流名單。</p>
+            </div>
+          </div>
+          <div class="filter-grid home-filter-grid">
+            <label>
+              政黨
+              <select name="party">
+                <option value="">全部政黨</option>
+                <option value="民主進步黨">民主進步黨</option>
+                <option value="中國國民黨">中國國民黨</option>
+                <option value="時代力量">時代力量</option>
+                <option value="親民黨">親民黨</option>
+                <option value="台灣團結聯盟">台灣團結聯盟</option>
+                <option value="綠黨社會民主黨聯盟">綠黨社會民主黨聯盟</option>
+                <option value="無黨籍">無黨籍</option>
+              </select>
+            </label>
+            <label>
+              委員會
+              <select name="committee">
+                <option value="">全部委員會</option>
+                <option value="內政">內政</option>
+                <option value="外交國防">外交國防</option>
+                <option value="經濟">經濟</option>
+                <option value="財政">財政</option>
+                <option value="司法法制">司法法制</option>
+                <option value="教育文化">教育文化</option>
+                <option value="交通">交通</option>
+                <option value="社福衛環">社福衛環</option>
+              </select>
+            </label>
+            <label>
+              地區
+              <select name="district">
+                <option value="">全部地區</option>
+                <option value="臺北市">臺北市</option>
+                <option value="新北市">新北市</option>
+                <option value="桃園市">桃園市</option>
+                <option value="臺中市">臺中市</option>
+                <option value="臺南市">臺南市</option>
+                <option value="高雄市">高雄市</option>
+                <option value="基隆市">基隆市</option>
+                <option value="新竹市">新竹市</option>
+                <option value="新竹縣">新竹縣</option>
+                <option value="彰化縣">彰化縣</option>
+                <option value="雲林縣">雲林縣</option>
+                <option value="嘉義市">嘉義市</option>
+                <option value="嘉義縣">嘉義縣</option>
+                <option value="屏東縣">屏東縣</option>
+                <option value="宜蘭縣">宜蘭縣</option>
+                <option value="花蓮縣">花蓮縣</option>
+                <option value="臺東縣">臺東縣</option>
+                <option value="澎湖縣">澎湖縣</option>
+                <option value="金門縣">金門縣</option>
+                <option value="連江縣">連江縣</option>
+                <option value="原住民選區">原住民選區</option>
+              </select>
+            </label>
+            <label>
+              當選與否
+              <select name="elected">
+                <option value="">全部</option>
+                <option value="yes">當選</option>
+                <option value="no">未當選</option>
+              </select>
+            </label>
+            <label>
+              現任與否
+              <select name="incumbent">
+                <option value="">全部</option>
+                <option value="yes">現任</option>
+                <option value="no">非現任</option>
+              </select>
+            </label>
+            <label>
+              排序
+              <select name="sort">
+                <option value="total">總收入高到低</option>
+                <option value="company">營利事業捐贈高到低</option>
+                <option value="companyCount">捐贈企業數高到低</option>
+                <option value="individual">個人捐贈高到低</option>
+                <option value="over3">超過三萬元收入高到低</option>
+                <option value="spending">總支出高到低</option>
+                <option value="votes">得票數高到低</option>
+              </select>
+            </label>
+          </div>
+          <button class="btn btn-primary advanced-submit" type="submit">用進階條件搜尋</button>
+        </section>
+      </form>
+
+      <div class="example-panel" aria-label="範例查詢">
+        <h3>範例查詢</h3>
+        <div class="chips">
+          <a href="2016_result.html?q=柯建銘">柯建銘</a>
+          <a href="2016_result.html?party=民主進步黨">民主進步黨</a>
+          <a href="2016_result.html?party=中國國民黨">中國國民黨</a>
+          <a href="2016_result.html?committee=經濟">經濟委員會</a>
+          <a href="2016_result.html?district=新北市">新北市</a>
+          <a href="2016_result.html?elected=yes&sort=over3">當選者大額收入排行</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="picks" class="editor-picks">
+      <div class="section-title">
+        <p class="kicker">EDITOR’S PICKS</p>
+        <h2>編輯精選案例</h2>
+        <p>先從幾個「金光閃閃」的入口看起：總收入、企業捐贈、企業數與大額收入。</p>
+      </div>
+
+      <div class="pick-grid">
+        <a class="pick-card" href="2016_result.html?q=柯建銘">
+          <span class="pick-tag">總收入最高</span>
+          <h3>柯建銘</h3>
+          <p>總收入逾 5,164 萬元，營利事業捐贈也位居前列。</p>
+          <em>查看此候選人 →</em>
+        </a>
+
+        <a class="pick-card" href="2016_result.html?q=王定宇">
+          <span class="pick-tag">企業數最多</span>
+          <h3>王定宇</h3>
+          <p>捐贈企業數達 163，適合觀察支持網絡密度。</p>
+          <em>查看此候選人 →</em>
+        </a>
+
+        <a class="pick-card" href="2016_result.html?q=黃國昌">
+          <span class="pick-tag">個人捐贈亮點</span>
+          <h3>黃國昌</h3>
+          <p>個人捐贈收入逾 2,516 萬元，呈現不同募款結構。</p>
+          <em>查看此候選人 →</em>
+        </a>
+
+        <a class="pick-card" href="2016_result.html?sort=company">
+          <span class="pick-tag">排行入口</span>
+          <h3>企業捐贈排行</h3>
+          <p>依營利事業捐贈收入排序，快速看到企業金流高度集中者。</p>
+          <em>打開排行 →</em>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>資料來源：A05_basic_all.csv。此為前端專題網站範本，適合再接資料清理、視覺化與候選人詳情頁。</p>
+  </footer>
+</body>
+</html>
